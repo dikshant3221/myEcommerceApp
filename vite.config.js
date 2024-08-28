@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/myEcommerceApp/', // This should match your GitHub Pages repository name
   plugins: [react()],
 })
